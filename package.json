@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "db.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^7.3.0",
+    "apollo-server": "^3.10.0",
+    "apollo-server-express": "^3.10.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-graphql": "^0.12.0",
+    "faker": "^6.6.6",
+    "graphiql": "^1.10.0",
+    "graphql": "^16.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.19",
+    "pg": "^8.7.3",
+    "sequelize": "^6.21.3"
+  }
+}
